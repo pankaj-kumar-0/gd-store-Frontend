@@ -1,0 +1,41 @@
+.admin_table{
+    background: #f6f9fc;
+    box-shadow: 0 1px 11px rgb(0 0 0 / 27%);
+    padding: 30px 25px;
+    min-height: 400px;
+}
+.admin_table .res{
+    overflow-x: auto;
+    padding-bottom: 50px;
+}
+.admin_table table{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 100%;
+    border-collapse: collapse;
+    /* overflow-x: auto; */
+}
+.admin_table table thead tr{
+    background-color: aqua;
+}
+.admin_table table thead th{
+   text-align: start;
+    padding: 12px 14px;
+    width: 20%;
+    min-width: 120px;
+}
+
+.admin_table table tbody tr td{
+   text-align: start;
+    padding: 10px 14px;
+    width: 30%;
+    min-width: 120px;
+    border-bottom: 1px solid #b9b9b9;
+}
+.admin_table table tbody tr td:nth-child(4),.admin_table table tbody tr td:nth-child(5){
+    width: 12.5%;
+}
+/* .admin_table table tbody .more{
+    display: flex;
+    justify-content: space-evenly;
+} */
+

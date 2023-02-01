@@ -1,0 +1,90 @@
+.profile_page{
+    margin-top: 120px;
+    /* border: 2px solid red; */
+    padding: 50px 0px;
+}
+.profile_page .profile_page_container{
+    width: 85%;
+    margin: auto;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.profile_page .profile_page_container .box{
+    background: #f6f9fc;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+}
+.profile_page .profile_page_container .box .col1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: #cdffff;
+    border-radius: 7px;
+}
+.profile_page .profile_page_container .box .col1::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    top: 0;
+    position: absolute;
+    background: url('../../../Asset//Images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.profile_page .profile_page_container .box .col2{
+    padding-left: 150px;
+    padding-top: 35px;
+    width: 70%;
+    
+}
+
+.profile_page .profile_page_container .box .col1 img{
+    width: 130px;
+    z-index: 10;
+}
+.profile_page .profile_page_container .box .col1 >div{
+   margin-top: 10px;
+   text-align: center;
+}
+.profile_page .profile_page_container .box  h4{
+   font-weight: 400;
+   opacity: 0.8;
+}
+.profile_page .profile_page_container .box .col2 h4{
+    font-weight: 400;
+    font-size: 18px;
+    width: 30%;
+}
+.profile_page .profile_page_container .box .col2 div{
+    display: flex;
+    margin-top: 40px;
+}
+
+.profile_page .profile_page_container .box h2{
+    font-weight: 400;
+    opacity: 0.7;
+}
+.profile_page .profile_page_container .box h3{
+   opacity: 0.8;
+   font-style: 19px;
+   color: red;
+}
+
+.profile_page .profile_page_container .link_box{
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.profile_page .profile_page_container .link_box .more{
+  width: 40%;
+  text-align: center;
+
+}

@@ -1,0 +1,41 @@
+.admin_add_pd_box{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+}
+.admin_input_form{
+    width: 70%;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 5px;
+    position: relative;
+    padding: 35px 30px 30px;
+    background: #f6f9fc;
+    box-shadow: 0 1px 11px rgb(0 0 0 / 27%);
+}
+.admin_input_form p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.admin_input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 5px;
+    color: #000000;
+    background: none;
+    outline: none;
+    font-size: 17px;
+}
+textarea{
+    resize: vertical;
+}
+
+.admin_btnbox{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}

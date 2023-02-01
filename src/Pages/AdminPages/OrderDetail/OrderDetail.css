@@ -1,0 +1,37 @@
+.od_detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* height: 400px; */
+}
+.od_detail .box{
+    width: 47%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* height: 400px; */
+}
+.od_detail .box .col1{
+   
+    border-bottom: 1px solid #a19e9e;
+    padding: 30px 0;
+    
+}
+.od_detail .box h3{
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 22px;
+    opacity: 0.85;
+}
+.od_detail .box .col1 h4{
+    font-weight: 100;
+    display: flex;
+
+}
+.od_detail .box .col1 h4 span{
+    opacity: 0.7;
+    width: 100px;
+}
+.od_detail .box .col{
+    /* border: 2px solid blue; */
+    padding-top: 30px;
+}

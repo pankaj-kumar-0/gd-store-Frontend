@@ -1,0 +1,53 @@
+.admin_products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.admin_products .pd{
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background: #f6f9fc;
+   padding: 20px 15px;
+   margin: 27px;
+   position: relative;
+   width: 280px;
+}
+.admin_products .pd .img_box{
+   text-align: center;
+}
+.admin_products .pd .img_box img{
+   height: 160px;
+}
+.admin_products .pd h4{
+    font-size: 16px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+.admin_products .pd h4 span{
+    margin-right: 5px;
+    font-weight: 100;
+    width: 50px;
+    display: inline-block;
+}
+.admin_products .pd .box{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.admin_products .pd .box span{
+    width: 45%;
+    padding: 5px 0;
+    justify-content: center;
+    display: flex;
+    background-color: #c2ffeb;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.admin_products .pd .box span .i{
+    opacity: 0.8;
+}
+.admin_products .pd .box span:hover .i{
+    opacity: 0.4;
+}
+

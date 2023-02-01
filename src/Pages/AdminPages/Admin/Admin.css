@@ -1,0 +1,53 @@
+.dashboard{
+    /* border: 2px solid rgb(89, 0, 255); */
+    /* height: 1500px; */
+    width: 100%;
+
+}
+.dashboard .card_container{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.dashboard .card_container .box{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    transition: 0.3s;
+    background: #f6f9fc;
+    text-align: center;
+}
+.dashboard .card_container .box:hover{
+   transform: scale(1.04);
+}
+
+.dashboard .card_container .box div{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    background: #e3e5e9;
+    /* text-align: center; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard .card_container .box div .icon{
+   font-size: 22px;
+   opacity: 0.7;
+}
+.dashboard .card_container .box h4{
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+.dashboard .card_container .box p{
+    font-size: 28px;
+    opacity: 0.7;
+    margin-top: 10px;
+}

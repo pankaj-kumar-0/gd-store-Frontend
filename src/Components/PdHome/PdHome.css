@@ -1,0 +1,19 @@
+.pd_home{
+    /* border: 2px solid red; */
+    /* height: 900px; */
+    width: 100%;
+    padding: 70px 0px;
+    padding-bottom: 10px;
+    background: #f6f9fc;
+}
+
+.pd_home .pd_home_container{
+    /* border: 2px solid red; */
+    /* height: 900px; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

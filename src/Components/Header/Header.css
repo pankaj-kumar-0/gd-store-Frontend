@@ -1,0 +1,104 @@
+.head{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    backdrop-filter: blur(1px);
+    background: #ffffff70;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: -1px 15px 17px -8px rgb(0 0 0 / 15%);
+    z-index: 1000;
+}
+.head .logo{
+    /* border: 2px solid rebeccapurple; */
+    width: 20%;
+}
+.head .search_box {
+    width: 55%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(0 0 0 / 19%);
+    
+    border-radius: 50px;
+    padding: 3px;
+}
+.head .register_box{
+    /* border: 2px solid rebeccapurple; */
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.head .logo img{
+    width: 130px;
+    height: 46px;
+}
+.head .search_box #search{
+    width: 5%;
+    font-size: 20px;
+    /* opacity: 0.5; */
+    font-size: 17px;
+    padding-left: 10px;
+}
+.head .search_box input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 77%;
+    padding: 10px;
+    font-size: 17px;
+}
+.head .search_box span{
+    width: 20%;
+    /* opacity: 0.5; */
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgb(0 0 0 / 19%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.head .register_box #register{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.head .register_box #register:hover{
+    color: #00b7eb;
+}
+.head .register_box #cart{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #f3f5f9;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #00b7eb;
+}
+
+
+.nav{
+    z-index: 1000;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    background: #ffffff70;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    padding: 10px;
+    box-shadow: -1px 15px 17px -8px rgb(0 0 0 / 10%);
+}
+.nav .link_item{
+    font-size: 17px;
+    margin: 26px;
+    text-decoration: none;
+    color: black;
+}
+.nav .link_item:hover{
+    color: #00b7eb;
+}

@@ -1,0 +1,20 @@
+.my_error_box {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ff2525;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-weight: 100;
+    margin: 30px auto;
+    color: white;
+}
+.wrong_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrong_img img{
+    width: 440px;
+   
+}
